@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+    <style>
+        .box{
+            border: 1px solid #555;            
+            height: 100px;
+            width: 200px;
+            display: inline-block;
+        }
+
+        img {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+
+        <section id="students">
+            <h2>Tabela de Alunos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Nomes e E-mails</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Carol Danvers</td>
+                        <td>carol.danvers@mail.com</td>
+                        <td rowspan="3">Valor invalido</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peter.parker@mail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tony.stark@mail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Tabela de Controle Financeiro</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Nomes e E-mails</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Carol Danvers</td>
+                        <td>carol.danvers@mail.com</td>
+                        <td rowspan="3">Valor invalido</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peter.parker@mail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tony.stark@mail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="box">
+        </section>
+        <img src="https://th.bing.com/th/id/R.75e29b09472f00f0f03b4d512c328907?rik=F9t9N5xhIYu8Vw&pid=ImgRaw&r=0" alt="gato">
+
+    </main>
+</body>
+</html>
